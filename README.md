@@ -1,5 +1,5 @@
-# Laravel-Guzzle
-[![Stable Status](https://poser.pugx.org/eleme/laravel-guzzle/v/stable.png)](https://packagist.org/packages/eleme/laravel-guzzle)
+# Laravel-Guzzle5 ServiceProvider
+[![Stable Status](https://poser.pugx.org/urakozz/laravel-guzzle/v/stable.png)](https://packagist.org/packages/urakozz/laravel-guzzle-provider)
 
 laravel guzzle service provider
 
@@ -7,6 +7,6 @@ laravel guzzle service provider
 
 ```json
 "require": {
-    "eleme/laravel-guzzle": "~0.1"
+    "kozz/laravel-guzzle": "~1.0"
 }
 ```
