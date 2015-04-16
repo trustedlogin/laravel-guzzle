@@ -1,26 +1,30 @@
 {
-    "name": "eleme/laravel-guzzle",
-    "description": "laravel guzzle service provider",
+    "name": "kozz/laravel-guzzle-provider",
+    "description": "Guzzle Service Provider for Laravel 5",
     "keywords": ["laravel", "guzzle", "http"],
     "license": "MIT",
     "authors": [
         {
             "name": "Hongbo Tang",
             "email": "thbourlove@gmail.com"
+        },
+        {
+            "name": "Yury Kozyrev",
+            "email": "urakozz@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~4.0",
-        "guzzlehttp/guzzle": "~4.0"
+        "illuminate/support": "~5.0",
+        "guzzlehttp/guzzle": "~5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
     "autoload": {
         "psr-4": {
-            "Eleme\\Laravel\\": "src/",
-            "Eleme\\Laravel\\Tests\\": "tests/"
+            "Kozz\\Laravel\\": "src/",
+            "Kozz\\Tests\\Laravel": "tests/"
         }
     }
 }
