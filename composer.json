@@ -26,5 +26,10 @@
             "Kozz\\Laravel\\": "src/",
             "Kozz\\Tests\\Laravel": "tests/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
