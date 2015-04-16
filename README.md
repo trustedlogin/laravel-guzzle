@@ -31,3 +31,16 @@ laravel guzzle service provider
         'Kozz\Laravel\Providers\Guzzle'
     ],
 ```
+
+
+## Enable Facade
+
+*/configs/app.php*
+
+```php
+    ...
+    'aliases' => [
+        ...
+        'Guzzle' => 'Kozz\Laravel\Facades\Guzzle'
+    ],
+```
