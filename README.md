@@ -44,3 +44,22 @@ laravel guzzle service provider
         'Guzzle' => 'Kozz\Laravel\Facades\Guzzle'
     ],
 ```
+
+## Usage
+
+### Send request
+
+```php
+
+  $response = \Guzzle::get('https://google.com');
+```
+
+
+### Get instance
+
+```php
+    $client = app()->offsetGet('guzzle');
+    $client = \Illuminate\Container\Container::getInstance()->offsetGet('guzzle');
+    $client = \Kozz\Laravel\Facades\Guzzle::getFacadeRoot();
+    $client = \Guzzle::getFacadeRoot();
+```
