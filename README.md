@@ -5,9 +5,17 @@ laravel guzzle service provider
 
 ## Install With Composer:
 
+### Guzzle ~5.0
 ```json
 "require": {
-    "kozz/laravel-guzzle": "~1.0"
+    "kozz/laravel-guzzle": "~5.0"
+}
+```
+
+### Guzzle ~6.0
+```json
+"require": {
+    "kozz/laravel-guzzle": "~6.0"
 }
 ```
 
