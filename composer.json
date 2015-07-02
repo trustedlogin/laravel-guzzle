@@ -1,6 +1,6 @@
 {
     "name": "kozz/laravel-guzzle-provider",
-    "description": "Guzzle Service Provider for Laravel 5",
+    "description": "Guzzle Service Provider for Laravel 6",
     "keywords": ["laravel", "guzzle", "http"],
     "license": "MIT",
     "authors": [
