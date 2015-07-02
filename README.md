@@ -7,25 +7,25 @@ laravel guzzle service provider
 
 ### Guzzle ~5.0
 ```sh
-composer require kozz/laravel-guzzle ~5.0
+composer require kozz/laravel-guzzle-provider ~6.0
 ```
 
 Or manualy in composer.json:
 ```json
 "require": {
-    "kozz/laravel-guzzle": "~5.0"
+    "kozz/laravel-guzzle-provider": "~5.0"
 }
 ```
 
 ### Guzzle ~6.0
 ```sh
-composer require kozz/laravel-guzzle ~6.0
+composer require kozz/laravel-guzzle-provider ~6.0
 ```
 
 Or manualy in composer.json:
 ```json
 "require": {
-    "kozz/laravel-guzzle": "~6.0"
+    "kozz/laravel-guzzle-provider": "~6.0"
 }
 ```
 
