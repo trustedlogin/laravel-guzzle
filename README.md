@@ -82,3 +82,29 @@ Or manualy in composer.json:
     $client = \Kozz\Laravel\Facades\Guzzle::getFacadeRoot();
     $client = \Guzzle::getFacadeRoot();
 ```
+### POST 
+```php
+$response = Guzzle::post(
+    'https://httpbin.org/post',
+    [
+        'form_params' => [
+            'id' => 222
+        ]
+    ]
+);
+```
+
+#### Basic auth
+
+```php
+$response = Guzzle::post(
+    'https://httpbin.org/post',
+    [
+        'auth' => [ 'theUsername', 'thePassword'],
+    ]
+);
+```
+
+
+generates: 
+`+"Authorization": "Basic dGhlVXNlcm5hbWU6dGhlUGFzc3dvcmQ="`
