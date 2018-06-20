@@ -1,5 +1,6 @@
 # Laravel - Guzzle 6 (or 5) Service Provider
 [![Downloads](https://img.shields.io/packagist/dt/kozz/laravel-guzzle-provider.svg)](https://packagist.org/packages/kozz/laravel-guzzle-provider)
+[![Packagist](https://img.shields.io/packagist/dm/kozz/laravel-guzzle-provider.svg)](https://packagist.org/packages/kozz/laravel-guzzle-provider)
 [![Version](https://img.shields.io/packagist/v/kozz/laravel-guzzle-provider.svg)](https://packagist.org/packages/kozz/laravel-guzzle-provider)
 
 laravel guzzle service provider
