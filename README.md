@@ -30,7 +30,15 @@ Or manualy in composer.json:
 }
 ```
 
-## Register Service Provider
+## Setup
+
+### Laravel >=5.5
+
+This package supports auto discovery, so no configuration is required.
+
+### Laravel <5.5
+
+#### Register Service Provider
 
 */configs/app.php*
 
@@ -52,7 +60,7 @@ Or manualy in composer.json:
 ```
 
 
-## Enable Facade
+#### Enable Facade
 
 */configs/app.php*
 
