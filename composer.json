@@ -23,7 +23,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Kozz\\Laravel\\": "src/",
+            "Kozz\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Kozz\\Tests\\Laravel\\": "tests/"
         }
     },
